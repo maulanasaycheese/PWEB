@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+    <form>
+        <legend><b><u>Registration Form</u></b></legend>
+        <p>
+            <label>First Name:</label>
+            <input type="text" name="FirstName"/>
+        </p>
+        <p>
+            <label>Middle Name:</label>
+            <input type="text" name="MiddleName"/>
+        </p>
+        <p>
+            <label>Last Name:</label>
+            <input type="text" name="LastName"/>
+        </p>
+        <p>
+            <label>Course:</label>
+            <select name="Course">
+                <option value=" "></option>
+                <option value="Math">Math</option>
+                <option value="Chemistry">Chemistry</option>
+                <option value="Physic">Physic</option>
+                <option value="Biology">Biology</option>
+                <option value="Social Studies">Social</option>
+            </select>
+        </p>
+        <p>
+            <label>Gender:</label>
+            <label><input type="radio" name="gender" value="Male" />Male</label>
+            <label><input type="radio" name="gender" value="Female" />Female</label>
+            <label><input type="radio" name="gender" value="Other" />Other</label>
+        </p>
+        <p>
+            <label>Phone:</label>
+            <input type="text" name="AreaCode" placeholder="+62" size="1">
+            <input type="text" name="PhoneNumber">
+        </p>
+        <p>
+            <label>Address:</label>
+            <textarea cols="60" rows="5" name="Address"></textarea>
+        </p>
+        <p>
+            <label>Email:</label>
+            <input type="email" name="email">
+        </p>
+        <p>
+            <label>Password:</label>
+            <input type="password" name="Password">
+        </p>
+        <p>
+            <label>Re-Type Password:</label>
+            <input type="password" name="RePassword">
+        </p>
+        <p>
+            <input type="submit" name="submit" value="Submit">
+        </p>
+    </form>
+    </div>
+</body>
+</html>

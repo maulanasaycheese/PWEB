@@ -1,0 +1,11 @@
+body{
+    background-color: gray;
+}
+legend{
+    color: rgb(5, 41, 72);
+}
+div{
+    background-color: rgb(237, 244, 248);
+    padding: 20px;
+    border-radius: 10px;
+}
