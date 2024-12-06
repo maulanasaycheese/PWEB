@@ -14,7 +14,7 @@
             font-family: 'Faculty Glyphic', Arial, sans-serif;
         }
         body {
-            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMVOXYdhkq4Cxw3Zp6M79c-TfvMPTlWdGnIw&s");
+            background-image: url("https://image.slidesdocs.com/responsive-images/background/code-technology-dark-data-business-blue-powerpoint-background_a2b80d32ab__960_540.jpg");
             background-size: auto;
             /* background: linear-gradient(135deg, #f0f4f8, #d9e4f5); */
             color: #333;
